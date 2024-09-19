@@ -13,27 +13,27 @@ public class Clock
     {
       System.out.println("midnight");
     }
-    if (time == 12) 
+    else if (time == 12) 
     {
       System.out.println("noon");
     }
-    if (time == 18) 
+    else if (time == 18) 
     {
       System.out.println("dusk");
     }
-    if (time > 0 & time < 12) 
+    else if (time > 0 & time < 12) 
     {
       System.out.println("morning");
     }
-    if (time > 12 & time < 18) 
+    else if (time > 12 & time < 18) 
     {
       System.out.println("afternoon");
     }
-    if (time > 18 & time < 24) 
+    else if (time > 18 & time < 24) 
     {
       System.out.println("midnight");
     }
-    if (time < 0 || time > 24) 
+    else if (time < 0 || time > 24) 
     {
       System.out.println("Error; please input a number between 0 and 24");
     }
